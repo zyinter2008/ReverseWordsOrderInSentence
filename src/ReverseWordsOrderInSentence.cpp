@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 #include <stdio.h>
 using namespace std;
 
@@ -7,7 +6,7 @@ void reverseWordsOrder(char *sentence, int length);
 void reverse(char *word, int start, int end);
 
 int main() {
-	char sentence[30] = "I am a student";
+	char sentence[30] = "I am a student！";
 	reverseWordsOrder(sentence, strlen(sentence));
 	return 0;
 }
